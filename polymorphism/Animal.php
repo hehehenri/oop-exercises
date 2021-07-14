@@ -6,18 +6,9 @@ abstract class Animal
     private $age;
     private $limbs;
 
-    public function move()
-    {
-
-    }
-    public function eat()
-    {
-
-    }
-    public function makeSound()
-    {
-        
-    }
+    abstract public function move();
+    abstract public function eat();
+    abstract public function makeSound();
 
     public function getWeight()
     {

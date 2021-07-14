@@ -11,7 +11,7 @@ class Bird extends Animal
     }
     public function eat()
     {
-        echo "Eating fruits" . PHP_EOL;
+        echo "Eating birdseed" . PHP_EOL;
     }
     public function makeSound()
     {

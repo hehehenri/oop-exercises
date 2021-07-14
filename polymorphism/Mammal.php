@@ -5,7 +5,7 @@ class Mammal extends Animal
 {
     private $furColor;
 
-    public function move()
+    public function move() 
     {
         echo "Running" . PHP_EOL;
     }
@@ -15,7 +15,7 @@ class Mammal extends Animal
     }
     public function makeSound()
     {
-        echo "Woof!!!" . PHP_EOL;
+        echo "Mammal random noise" . PHP_EOL;
     }
     
     public function getFurColor()
